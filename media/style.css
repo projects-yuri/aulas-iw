@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    user-select: none;
+    margin-bottom: 6px;
+    align-self: flex-start;
+}
+
+form{
+    width: 26%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    all: unset;
+}
+
+input[type="number"]{
+    border: 1px solid #FFD25A;
+    border-radius: 14px;
+    margin-bottom: 0.6rem;
+    width: 100%;
+    padding: 6px;
+}
+
+input[type="submit"]{
+    background-color: #FFD25A;
+    color: #191919;
+    width: 50%;
+    height: 14%;
+    text-align: center;
+    border-radius: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Eina';
+    src: url(./font/EinaRegular.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Eina';
+    src: url(./font/EinaSemiBold.ttf);
+    font-weight: 500;
+}
+
+html{
+    background-color: #191919;
+    color: white;
+    font-family: 'Eina';
+    font-weight: 300;
+    font-size: 26px;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    color: #191919;
+    text-decoration: none;
+    background-color: #FFD25A;
+    width: 10%;
+    text-align: center;
+    border-radius: 14px;
+    position: absolute;
+    top: 60%;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Exemplo 04</title>
+</head>
+<body>
+    <h1 id="heading">Hello World!</h1>
+    <p>Estou amaldiçoado!</p>
+    <p>Medo!</p>
+</body>
+    <script>
+        // forma interpolada
+        // forma interpolada => acento grave - crase
+        // alert(`Olá ${nome}! Seu nome tem ${nome.length} caracteres.`)
+
+        let nome = prompt('Digite seu nome: ')
+
+        // forma concatenada
+        // alert('Olá ' + nome + '! Seu nome tem ' + nome.length + ' caracteres.')
+
+        let qtde = nome.length
+        // alert('Nome em maiúsculo = ' + nome.toUpperCase())
+        // alert('Nome em minúsculo = ' + nome.toLowerCase())
+        document.write(`<h1>Olá ${nome}, seu nome tem ${nome.length} caracteres.</h1>`)
+    
+        // strings
+        //s.length
+        //s.toUpperCase()
+        //s.toLowerCase()
+
+        //s.indexOf('exemplo')
+        //s.lastIndexOf()
+        // var str = "Olá Mundo Olá Mundo Olá Mundo"
+        // var first = str.indexOf("Mundo")
+        // var last = str.lastIndexOf("Mundo")
+
+        let text = 'J1 Got Times 2'
+        let result = text.slice(3, 4)
+        console.log(result)
+
+        //s.replace() => substitui somente a primeira.
+    let a = 'Olá'
+    let b = "macaco"
+    let c = "maluco!"
+    let d = a.concat([' ' + b +' '+ c])
+    console.log(d)
+    
+
+
+    </script>
+</html>

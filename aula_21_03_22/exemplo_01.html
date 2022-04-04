@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: grey;
+        color: white;
+        text-align: center;
+        font-size: 50px;
+    }
+</style>
+<body>
+
+<h1>Iniciando estudos com DOM</h1>
+<p>Aqui vai o resultado</p>
+<p>Aprendendo a usar <strong>DOM</strong> com JS</p>
+<div id="shh">Clique aqui</div>
+
+<script>
+    let body = window.document.body
+    corpo.style.background = 'black'
+
+    let thing = window.document.getElementsByTagName('p')[0]
+    window.document.write(thing.innerText)
+    thing.style.color = 'green'
+
+    let other = window.document.getElementsByTagName('p')[1]
+    window.document.write(other.innerHTML)
+
+    let div = window.document.getElementById('shh')
+    div.style.background = 'violet'
+
+    let d = window.document.querySelector('div#shh')
+    d.style.color = 'aquamarine'
+</script>
+
+</body>
+</html>
