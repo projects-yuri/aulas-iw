@@ -24,7 +24,7 @@ const subtrair = () => {
     let num2 = Number(n2.value)
     let subtract = num1 - num2
 
-    res.innerText = `A subtração de ${num1} + ${num2} é ${subtract}`
+    res.innerText = `A subtração de ${num1} - ${num2} é ${subtract}`
 }
 
 subtract.addEventListener('click', subtrair)
@@ -35,7 +35,7 @@ const multiplicar = () => {
     let num2 = Number(n2.value)
     let multiply = num1 * num2
 
-    res.innerText = `A multiplicação de ${num1} + ${num2} é ${multiply}`
+    res.innerText = `A multiplicação de ${num1} * ${num2} é ${multiply}`
 }
 
 multiply.addEventListener('click', multiplicar)
@@ -46,7 +46,7 @@ const dividir = () => {
     let num2 = Number(n2.value)
     let divide = num1 / num2
 
-    res.innerText = `A divisão de ${num1} + ${num2} é ${divide}`
+    res.innerText = `A divisão de ${num1} / ${num2} é ${divide}`
 }
 
 divide.addEventListener('click', dividir)
